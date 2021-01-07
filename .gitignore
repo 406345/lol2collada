@@ -37,6 +37,7 @@
 
 # IDE
 .vs/*
+*.user
 
 # Build
 Debug/
@@ -47,3 +48,4 @@ x64/
 !*.h
 !*.hpp
 !*.cpp
+
