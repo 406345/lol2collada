@@ -3,7 +3,6 @@
 // Used by lol-to-collada.rc
 //
 #define IDI_ICON1                       101
-#define IDB_PNG1                        102
 
 // Next default values for new objects
 // 

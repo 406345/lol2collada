@@ -1,6 +1,6 @@
 // Microsoft Visual C++ generated resource script.
 //
-#include "resource1.h"
+#include "resource.h"
 
 #define APSTUDIO_READONLY_SYMBOLS
 /////////////////////////////////////////////////////////////////////////////
@@ -27,7 +27,7 @@ LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
 
 1 TEXTINCLUDE 
 BEGIN
-    "resource1.h\0"
+    "resource.h\0"
 END
 
 2 TEXTINCLUDE 
@@ -50,8 +50,6 @@ END
 // PNG
 //
 
-IDB_PNG1                PNG                     "C:\\Users\\J-DT\\Pictures\\Favicon\\lol2collada.png"
-
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -60,7 +58,7 @@ IDB_PNG1                PNG                     "C:\\Users\\J-DT\\Pictures\\Favi
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_ICON1               ICON                    "C:\\Users\\J-DT\\Downloads\\lol2collada.ico"
+IDI_ICON1               ICON                    "lol2collada.ico"
 
 #endif    // Korean (Korea) resources
 /////////////////////////////////////////////////////////////////////////////

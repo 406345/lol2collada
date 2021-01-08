@@ -87,16 +87,14 @@ void ColladaWriter::writeHeader()
 	strftime(formattedTime, timeSize, "%Y-%m-%dT%H:%M:%SZ", &timeInfo);
 
 	outFile << R"(<?xml version="1.0" encoding="utf-8"?>)" << endl;
-	outFile <<
-		R"(<COLLADA xmlns="http:
+	outFile << R"(<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">)" << endl;
 	outFile << "\t" << "<asset>" << endl;
 	outFile << "\t\t" << "<contributor>" << endl;
 	outFile << "\t\t\t" << "<authoring_tool>lol2dae v1.3</authoring_tool>" << endl;
 	outFile << "\t\t" << "</contributor>" << endl;
 	outFile << "\t\t" << "<created>" << formattedTime << "</created>" << endl;
 	outFile << "\t\t" << "<modified>" << formattedTime << "</modified>" << endl;
-	outFile << "\t\t" << R"(<unit meter="0.01" name="centimeter"/>)"
-		<< endl;
+	outFile << "\t\t" << R"(<unit meter="0.01" name="centimeter"/>)" << endl;
 	outFile << "\t\t" << "<up_axis>Y_UP</up_axis>" << endl;
 	outFile << "\t" << "</asset>" << endl;
 

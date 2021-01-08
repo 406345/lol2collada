@@ -1,5 +1,9 @@
 # lol2collada
 
+**Current version** : `1.1.0` [CHANGELOG.md](https://github.com/cqtd/lol2collada/CHANGELOG.md)
+
+
+
 ## Usage
 
 1. Open command prompt.
@@ -7,7 +11,7 @@
 3. Run program with arguments.
 
 ```batch
-lol2collada [skn file path] [skl file path] [animation folder root]
+lol2collada [skn file path] [skl file path] [animation folder root] [output folder root]
 ```
 
 4. `.dae` files will generated at animations folder.
@@ -15,7 +19,7 @@ lol2collada [skn file path] [skl file path] [animation folder root]
 ### Example
 
 ```batch
-lol2collada "c:/extracted/character/garen/garen.skn" "c:/extracted/character/garen/garen.skl" "c:/extracted/character/garen/animations"
+lol2collada "c:/extracted/character/garen/garen.skn" "c:/extracted/character/garen/garen.skl" "c:/extracted/character/garen/animations" "c:/converted/garen"
 ```
 
 

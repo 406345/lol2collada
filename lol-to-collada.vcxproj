@@ -121,7 +121,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;LOLTOCOLLADA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);DLL_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;LOLTOCOLLADA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -139,7 +139,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;LOLTOCOLLADA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);DLL_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;LOLTOCOLLADA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -177,7 +177,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;LOLTOCOLLADA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);DLL_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;LOLTOCOLLADA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -195,7 +195,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;LOLTOCOLLADA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);DLL_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;LOLTOCOLLADA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -241,7 +241,6 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="Quaternion.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="resource1.h" />
     <ClInclude Include="SkeletonBone.h" />
     <ClInclude Include="SkeletonImporter.h" />
     <ClInclude Include="SkinImporter.h" />
@@ -272,8 +271,7 @@
     <ResourceCompile Include="lol-to-collada.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\Users\J-DT\Downloads\lol2collada.ico" />
-    <Image Include="..\..\..\..\Users\J-DT\Pictures\Favicon\lol2collada.png" />
+    <Image Include="lol2collada.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

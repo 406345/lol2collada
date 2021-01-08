@@ -43,6 +43,7 @@
 Debug/
 Release/
 x64/
+DLL/
 
 # Essential
 !*.h
