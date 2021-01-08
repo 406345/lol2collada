@@ -1,6 +1,6 @@
 # lol2collada
 
-**Current version** : `1.1.0` [CHANGELOG.md](https://github.com/cqtd/lol2collada/CHANGELOG.md)
+**Current version** : `1.1.0` [CHANGELOG.md](https://github.com/cqtd/lol2collada/blob/main/CHANGELOG.md)
 
 
 
