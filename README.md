@@ -60,7 +60,7 @@ public class LolCharacterUtil
 			throw new DirectoryNotFoundException($"{animationFolderPath}");
 		}
 			
-		string path = $"output/{champion}";
+		string path = $"{Application.dataPath}/{output}/{champion}";
 		path = path.Replace("/", "\\");
 			
 		DirectoryInfo destination = new DirectoryInfo(path);
@@ -85,6 +85,17 @@ public class LolCharacterUtil
 		{
 			Debug.LogError("Failed");
 		}
+	}
+	
+	[MenuItem("Tools/LOL 2 Unity/Imported DLL - Wrapped")]
+	private static void Test3()
+	{
+		LolCharacterUtil.Import(
+			"ahri", 
+			"C:\\Riot Games\\League of Legends\\Root\\assets\\characters",
+			"Export");
+
+		AssetDatabase.Refresh();
 	}
 }
 ```
